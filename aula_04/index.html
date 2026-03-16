@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04</title>
+</head>
+
+<body>
+    <h1>Principais formações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Na frase temos uma parte do texto <b>em negrito</b> usando a tag B na semântica (não semântica)</p>
+    <p>Na frase temos uma parte do texto <strong>em negrito</strong> usando a tag strong na semântica (semântica)</p>
+
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase vamos encontrar uma palavra em <i>itálico </i> usando a tag i (não semântica)</p>
+    <p>Nesta frase vamos encontrar uma palavra em <em>itálico </em> usando a tag EM (semântica)</p>
+
+    <h2>Texto Marcador</h2>
+    <p>Aqui vamos usar um texto com destaque <mark style="background-color: green;">de marcador de texto</mark> usando
+        mark</p>
+    <p>Aqui vamos usar um texto com destaque <mark style="background-color: yellow;">de marcador de texto</mark> usando
+        mark</p>
+
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos trabalhando aqui com um <big>texto grande</big> e um <small>texto pequeno</small></p>
+
+    <h2>Texto deletado vs riscado</h2>
+    <p>Nesse paragrafo vamos trabalhar com um texto <del>que foi excluído</del> da frase (forma semântica)</p>
+
+    <h2>Texto inserido vs sublinhado</h2>
+    <p>Nesse texto vamos demonstrar como <ins>destacar um texto inserido na frase</ins> de forma semântica</p>
+    <p>Nesse texto vamos demonstrar como <u>destacar um texto inserido na frase</u> de forma não semântica</p>
+
+    <h2>Texto sobrescrito</h2>
+    <p> vamos demonstrar uma fórmula da equação do segundo grau ax<sup>2</sup> + bx + c = 0 usando a tag sup</p>
+
+    <h2>Texto subscrito</h2>
+    <p> vamos demonstrar um texto subscrito com a fórmula da água H<sub>2</sub>O </p>
+
+    <h2>Trecho de código</h2>
+    <p>Nesse exemplo vou demonstrar um trecho de código</p>
+    <p>inserindo o comando <code>document.getElementById('edtCodigo')</code> que é um comando de JavaScript</p>
+    <pre>
+        <code>
+    function resolverEquacao2Grau(a, b, c) {
+    if (a === 0) {
+        return "O coeficiente 'a' não pode ser zero (equação do 1º grau).";
+    }
+
+    // Cálculo do delta: b^2 - 4ac
+    const delta = Math.pow(b, 2) - 4 * a * c;
+
+    if (delta < 0) {
+      return "A equação não possui raízes reais (delta negativo).";
+    } 
+    else if (delta === 0) {
+     // Apenas uma raiz real
+    const x = -b / (2 * a);
+    return `A equação possui uma raiz real: x = ${x}`;
+    } 
+    else {
+    // Duas raízes reais
+         const x1 = (-b + Math.sqrt(delta)) / (2 * a);
+        const x2 = (-b - Math.sqrt(delta)) / (2 * a);
+        return `Raízes: x1 = ${x1.toFixed(2)}, x2 = ${x2.toFixed(2)}`;
+    }
+    }
+
+    // Exemplo de uso:
+    // Equação: 1x^2 - 5x + 6 = 0
+    console.log(resolverEquacao2Grau(1, -5, 6)); // Saída: Raízes: x1 = 3.00, x2 = 2.00
+
+        </code>
+    </pre>
+    <h2>Endereço</h2>
+    Nesse trecho vou tratar como colocar endereços, por exemplo, <address>Rua Desembargador Augusto Botelho</address>
+
+    <h2>Code</h2>
+    <p>A seguir um código:</p>
+    <code>
+        Print(Hello World)
+</code>
+
+    <h2>Citações</h2>
+    <h3>Simples</h3>
+    <p>Segundo Sandra Kussunoki no seu livro:<q>A dança e o ventre</q></p>
+    <h3>Completas</h3>
+    <p>citação de <cite>O Pequeno Principe</cite>:
+    <blockquote cite="https://www.sesirs.org.br/sites/default/files/paragraph--files/o_pequeno_principe_-_antoine_de_saint-exupery_1.pdf">
+        "Tu te tornas eternamente responsável por aquilo que cativas."</blockquote>
+    </p>
+
+    <h2>Abreviações</h2>
+    <p>estamos trabalhando com <abbr title="HyperText Markup Language">HTML</abbr> e com <abbr
+            title="Cascading Style Sheets">CSS</abbr></p>
+
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="ltr">Estou estudando HTML</bdo></p>
+    <p><bdo dir="rtl">Estou estudando HTML</bdo></p>
+</body>
+
+</html>
