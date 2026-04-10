@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leandro da Hora de Sousa · Dev Web</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===== MENU ===== -->
+  <nav>
+    <a class="nav-logo" href="index.html">&lt;<span>Leandro</span>/&gt;</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="curriculo.html">Currículo</a></li>
+      <li><a href="github.html">GitHub</a></li>
+      <li><a href="servicos.html">Serviços</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <div class="hero">
+    <div class="hero-inner">
+      <div>
+        <span class="hero-tag fade-up">Olá, seja bem-vindo(a)!</span>
+        <h1 class="fade-up">Eu sou <em>Leandro da Hora de Sousa</em>,<br>Desenvolvedor Web.</h1>
+        <p class="hero-sub fade-up">
+          Estudante de Ciência da computação, apaixonado por tecnologia,
+          games e música. Transformo ideias em páginas que funcionam de verdade.
+        </p>
+        <div class="hero-btns fade-up">
+          <a href="servicos.html" class="btn btn-primary">Ver Serviços</a>
+          <a href="contato.html" class="btn btn-outline">Falar comigo</a>
+        </div>
+      </div>
+      <div class="avatar-card fade-up">
+        <div class="avatar-placeholder">🧑</div>
+        <p class="avatar-name">Leandro da Hora de Sousa</p>
+        <p class="avatar-role">Ciência da Computação · UVV · Vila Velha/ES</p>
+        <p class="status-dot"><span class="dot"></span> Aberto para projetos</p>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <!-- ===== SOBRE MIM ===== -->
+  <section id="sobre">
+    <div class="section-inner">
+      <h2 class="section-title">Minha História</h2>
+      <div class="divider"></div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-bottom:3rem;">
+        <div>
+          <p style="color:var(--muted);font-size:.93rem;margin-bottom:1rem;">
+            Nasci em Vitória/ES, sempre curioso sobre como as coisas funcionam.
+            Desde cedo me interessei por jogos e computadores, o que me levou naturalmente
+            ao mundo da tecnologia.
+          </p>
+          <p style="color:var(--muted);font-size:.93rem;margin-bottom:1rem;">
+            Em 2026, ingressei no curso de <strong style="color:var(--text)">Ciência da Computação</strong>
+            na Universidade Vila Velha, onde venho desenvolvendo habilidades em programação web,
+            banco de dados e lógica de programação.
+          </p>
+          <p style="color:var(--muted);font-size:.93rem;">
+            Meu objetivo é me tornar um desenvolvedor Full Stack e contribuir com soluções
+            digitais que impactem positivamente a vida das pessoas.
+          </p>
+        </div>
+        <div class="skill-list">
+          <div class="skill-item">
+            <div class="skill-header">HTML & CSS - 60%</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width:60%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">JavaScript - 0%</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width:0%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">Python - 50%</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width:50%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">MySQL - 10%</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width:10%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">Git & GitHub - 20%</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width:20%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cards de destaques -->
+      <div class="cards-grid">
+        <div class="card fade-up">
+          <div class="card-icon">🎓</div>
+          <p class="card-title">Vida Acadêmica</p>
+          <p class="card-text">Universidade Vila Velha, Ciência da Computação. Cursando desde o início de 2026 com foco
+            em desenvolvimento web e cybersegurança.</p>
+          <p class="card-tag">→ <a href="curriculo.html" style="color:var(--accent2);text-decoration:none;">Ver
+              currículo completo</a></p>
+        </div>
+        <div class="card fade-up">
+          <div class="card-icon">💼</div>
+          <p class="card-title">Objetivo Profissional</p>
+          <p class="card-text">Atuar como Dev Full Stack, criar sites para pequenos negócios e colaborar em projetos
+            open source.</p>
+          <p class="card-tag">→ <a href="servicos.html" style="color:var(--accent2);text-decoration:none;">Ver
+              serviços</a></p>
+        </div>
+        <div class="card fade-up">
+          <div class="card-icon">🎵</div>
+          <p class="card-title">Hobby’s & Vídeos</p>
+          <p class="card-text">Gosto de jogar jogos multiplayer, assistir séries e filmes, andar de bicicleta...
+            Youtubers favoritos: YuriRDev, Curso em vídeo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FORMACAO ===== -->
+  <section id="academia"
+    style="background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+    <div class="section-inner">
+      <h2 class="section-title">Formação</h2>
+      <div class="divider"></div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:3rem;">
+        <div class="timeline">
+          <div class="timeline-item">
+            <p class="timeline-year"><b>2014 – 2018</b></p>
+            <p class="timeline-place">SESC (Ensino Fundamental I)</p>
+            <p class="timeline-detail">Vila Velha/ES. Primeiros anos escolares, destaque em matemática e ciências.</p>
+          </div>
+          <div class="timeline-item">
+            <p class="timeline-year"><b>2019 – 2022</b></p>
+            <p class="timeline-place">SESI Araças (Ensino Fundamental II)</p>
+            <p class="timeline-detail">Vila Velha/ES. Participei da equipe de Robótica da unidade, programando robôs de
+              lego.</p>
+          </div>
+          <div class="timeline-item">
+            <p class="timeline-year"><b>2023 – 2025</b></p>
+            <p class="timeline-place">Sesi Araças (Ensino Médio)</p>
+            <p class="timeline-detail">Vila Velha/ES. Viajei representando a unidade em campeonatos de robótica e
+              MOBFOG.</p>
+          </div>
+          <div class="timeline-item">
+            <p class="timeline-year"><b>2026 – Presente</b></p>
+            <p class="timeline-place">Universidade Vila Velha · CC</p>
+            <p class="timeline-detail">Vila Velha/ES. Cursando o 1º período de Ciência da Computação.</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="highlight-box">
+            <h3>📚 Disciplinas que estou cursando</h3>
+            <p>1º Período — Ciência da Computação</p>
+          </div>
+
+          <!-- TABELA MATERIAS -->
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th>Disciplina</th>
+                <th>Resumo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong style="color:var(--text)">Desenvolvimento Web</strong></td>
+                <td>HTML, CSS, JS e criação de landing pages responsivas.</td>
+              </tr>
+              <tr>
+                <td><strong style="color:var(--text)">Banco de Dados I</strong></td>
+                <td>Modelos de dados conceituais, lógicos e físico.</td>
+              </tr>
+              <tr>
+                <td><strong style="color:var(--text)">Experiência e Interface com o Usuário</strong></td>
+                <td>Interação eficiente, Heurísticas, usabilidade, wireframes</td>
+              </tr>
+              <tr>
+                <td><strong style="color:var(--text)">Lógica para Computação</strong></td>
+                <td>Proposições, tabelas-verdade, metodo dedutivo, forma normal.</td>
+              </tr>
+              <tr>
+                <td><strong style="color:var(--text)">Textos Científicos: Aspectos Metodológicos e Linguísticos</strong>
+                </td>
+                <td>ler, analisar e produzir textos acadêmicos.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EVENTOS & PLANOS ===== -->
+  <section id="eventos">
+    <div class="section-inner">
+      <h2 class="section-title">Participações & Futuro</h2>
+      <div class="divider"></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;">
+        <div>
+          <h3 style="margin-bottom:1.2rem;color:var(--accent);font-size:.95rem;font-family:var(--font-mono)">EVENTOS QUE
+            PARTICIPEI</h3>
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th>Evento</th>
+                <th>Ano</th>
+                <th>Tipo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>InovaWeek</td>
+                <td>2024</td>
+                <td>Feira de Tecnologia</td>
+              </tr>
+              <tr>
+                <td>19º SCGP</td>
+                <td>2024</td>
+                <td>Seminário Capixaba de Gestão de Projetos.</td>
+              </tr>
+              <tr>
+                <td>18º SCGP</td>
+                <td>2023</td>
+                <td>Seminário Capixaba de Gestão de Projetos.</td>
+              </tr>
+              <tr>
+                <td>Robótica Regional</td>
+                <td>2024</td>
+                <td>Competição (2º lugar)</td>
+              </tr>
+              <tr>
+                <td>Robótica Nacional</td>
+                <td>2025</td>
+                <td>Competição</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h3 style="margin-bottom:1.2rem;color:var(--accent);font-size:.95rem;font-family:var(--font-mono)">PLANOS PARA
+            O FUTURO</h3>
+          <div class="card" style="margin-bottom:.8rem;">
+            <p class="card-title">🚀 Curto Prazo (1-2 anos)</p>
+            <p class="card-text">Concluir a graduação, conseguir estágio em empresa de tecnologia em Vitória/ES.</p>
+          </div>
+          <div class="card" style="margin-bottom:.8rem;">
+            <p class="card-title">💡 Médio Prazo (3-5 anos)</p>
+            <p class="card-text">Trabalhar como Hacker Ético, construir um SaaS para pequenos negócios locais e
+              estudar Cloud (AWS).</p>
+          </div>
+          <div class="card">
+            <p class="card-title">🌍 Longo Prazo</p>
+            <p class="card-text">Trabalhar remotamente para empresas internacionais e criar uma startup de tecnologia
+              educacional.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MÍDIA (áudio + vídeo) ===== -->
+  <section id="midia" style="background:var(--bg2);border-top:1px solid var(--border)">
+    <div class="section-inner">
+      <h2 class="section-title">Música & Vídeo</h2>
+      <div class="divider"></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start;">
+        <div>
+          <h3 style="font-size:.9rem;color:var(--accent);font-family:var(--font-mono);margin-bottom:1rem;">🎵 Playlist
+          </h3>
+          <p style="color:var(--muted);font-size:.85rem;margin-bottom:1rem;">Playlist que me ajuda a
+            manter o foco:</p>
+          <iframe data-testid="embed-iframe" style="border-radius:12px"
+            src="https://open.spotify.com/embed/playlist/2Heml4mBceQNn08PehiRIK?utm_source=generator" width="90%"
+            height="352" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </audio>
+        </div>
+        <div>
+          <h3 style="font-size:.9rem;color:var(--accent);font-family:var(--font-mono);margin-bottom:1rem;">📺 Canal
+            favorito no YouTube</h3>
+          <p style="color:var(--muted);font-size:.85rem;margin-bottom:1rem;">YuriRDev — Hacking na prática</p>
+          <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4DzMbBYXa7M?si=ruRPgwYDVIyhZdU9"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-copy">© 2026 Leandro da Hora · Desenvolvido em HTML, CSS</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="curriculo.html">Currículo</a>
+        <a href="github.html">GitHub</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="contato.html">Contato</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
