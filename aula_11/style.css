@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(90deg,
+            rgba(6, 100, 164, 1),
+            rgba(18, 161, 231, 1),
+            rgba(5, 177, 191, 1));
+}
+
+.card {
+    background-color: #ffffff;
+    width: 400px;
+    padding: 25px;
+    border-radius: 25px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    margin: 100px auto;
+    text-align: left;
+}
+
+h1 {
+    color: rgba(6, 100, 164, 1)
+}
+
+h2 {
+    color: rgba(18, 161, 231, 1);
+}
