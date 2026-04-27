@@ -1,25 +1,43 @@
 body {
-    background: linear-gradient(90deg,
-            rgba(6, 100, 164, 1),
-            rgba(18, 161, 231, 1),
-            rgba(5, 177, 191, 1));
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
 }
 
-.card {
-    background-color: #ffffff;
-    width: 400px;
-    padding: 25px;
-    border-radius: 25px;
-
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-    margin: 100px auto;
-    text-align: left;
+.box {
+    flex: 1;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    width: 300px;
 }
 
-h1 {
-    color: rgba(6, 100, 164, 1)
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
 }
 
-h2 {
-    color: rgba(18, 161, 231, 1);
+a:hover::before {
+    content: "* ";
+}
+
+a:hover::after {
+    content: " *";
+}
+
+.spotify:hover {
+    color: green;
+}
+
+.youtube:hover {
+    color: red;
+}
+
+.amazon:hover {
+    color: blue;
+}
+
+a:active {
+    color: pink;
 }
