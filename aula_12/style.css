@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    border: 2px solid #333;
+    padding: 10px;
+    height: 100px;
+}
+
+.item {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.exercicio1 {
+    display: flex;
+}
+
+.exercicio1 .item {
+    background-color: blue;
+}
+
+.exercicio2 .item {
+    flex-grow: 1;
+}
+
+.exercicio2 .item:hover {
+    text-decoration: underline;
+}
+
+.item1 {
+    background-color: red;
+}
+
+.item2 {
+    background-color: green;
+}
+
+.item3 {
+    background-color: blue;
+}
+
+.item4 {
+    background-color: purple;
+}
+
+.item5 {
+    background-color: orange;
+}
+
+.exercicio3 .item {
+    flex-grow: 1;
+}
+
+.exercicio3 .item3 {
+    flex-grow: 2;
+}
+
+.exercicio3 .item:active {
+    background-color: black;
+    transition: 300ms;
+}
+
+.exercicio4 {
+    justify-content: end;
+}
