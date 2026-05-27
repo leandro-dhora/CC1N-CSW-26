@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Calculadora">
+        <div class="firth-row">
+            <input type="text" name="result" id="result" placeholder="Result" readonly>
+            <button value="C" onclick="result.value=''" id="clear-button">AC</button>
+        </div>
+        <div class="second-row">
+            <button id="btn1">1</button>
+            <button id="btn2">2</button>
+            <button id="btn3">3</button>
+            <button id="btn4">+</button>
+        </div>
+        <div class="third-row">
+            <button id="btn5">4</button>
+            <button id="btn6">5</button>
+            <button id="btn7">6</button>
+            <button id="btn8">-</button>
+        </div>
+        <div class="fourth-row">
+            <button id="btn9">7</button>
+            <button id="btn10">8</button>
+            <button id="btn11">9</button>
+            <button id="btn12">x</button>
+        </div>
+        <div class="fifth-row">
+            <button id="btn13">÷</button>
+            <button id="btn14">0</button>
+            <button id="btn15">.</button>
+            <button id="btn16">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
