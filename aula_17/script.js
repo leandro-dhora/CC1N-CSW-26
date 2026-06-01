@@ -23,5 +23,5 @@ botao.addEventListener("click", function () {
         return
     }
 
-    resultado.textContent = `Você tem ${idade} anos.`
+    document.getElementById(resultado).innerHTML = "Você tem" + resultado + "Anos"  
 })

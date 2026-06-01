@@ -1,0 +1,19 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Calculadora {
+    background-image: url(fundo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80px;
+    width: 800px;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    box-shadow: 50px;
+}
